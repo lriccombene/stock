@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_movimientos</class>
+ <widget class="QWidget" name="form_movimientos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Movimientos</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(140, 198, 63);</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>811</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="title">
+    <string>Movimientos</string>
+   </property>
+   <widget class="QTableWidget" name="tw_ordenar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>791</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>150</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tipo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Producto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cantidad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QComboBox" name="cbx_ordenar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Entrada</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Salida</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_ordenar">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ordenar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

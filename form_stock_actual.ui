@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_stock_actual</class>
+ <widget class="QWidget" name="form_stock_actual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stock Actual</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(140, 198, 63);</string>
+  </property>
+  <widget class="QTableWidget" name="tw_inventario">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>591</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(238, 238, 236);</string>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>280</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Producto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cantidad</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>30</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ordenar por tipo :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ordenar">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>30</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string>Ordenar</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbx_tipo_producto">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>221</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(238, 238, 236);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Libreria</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Autopartes</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Almacen</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
